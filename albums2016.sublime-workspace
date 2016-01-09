@@ -1,0 +1,705 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"key",
+				"keydown	.keydown()"
+			],
+			[
+				"fonts",
+				"fontsArray"
+			],
+			[
+				"test",
+				"testJSON"
+			],
+			[
+				"response",
+				"responseObject"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"nth",
+				"nth-of-type"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"b",
+				"botttomBorder"
+			],
+			[
+				"add",
+				"addClass	.addClass()"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"sub",
+				"submit	.submit()"
+			],
+			[
+				"BO",
+				"border-bottom"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"firs",
+				"first-child"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"fon",
+				"fontSize"
+			],
+			[
+				"ad",
+				"addClass	.addClass()"
+			],
+			[
+				"has",
+				"hasClass	.hasClass()"
+			],
+			[
+				"bott",
+				"border-bottom"
+			],
+			[
+				"boo",
+				"botttomBorder"
+			],
+			[
+				"colo",
+				"color"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"ex",
+				"expiryMsg"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"color",
+				"background-color"
+			],
+			[
+				"paddign",
+				"padding-bottom"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"wi",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 922,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/app.js",
+			"settings":
+			{
+				"buffer_size": 786,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "client id: 42b5e0e10091475d848dcaa70c3b340c\nclient secret: 5e7dc5ce325240d59f94d132d2b39752\n\n\nbase api: https://api.spotify.com\ntrack uri (why you hate the game - the game): spotify:track:0YpRJMiRYnpl4FeGImnGvr\n\n\ncurl request for track:\ncurl -X GET \"https://api.spotify.com/v1/tracks/0YpRJMiRYnpl4FeGImnGvr\" -H \"Accept: application/json\"\n\ntop 10:\ngrimes: \nalbum uri: 5hB4jVN4ZHpubyiMmW81K1\ncurl -X GET \"https://api.spotify.com/v1/albums/5hB4jVN4ZHpubyiMmW81K1?market=ES\" -H \"Accept: application/json\"\n\n\n",
+			"file": "misc/api.scratch",
+			"file_size": 532,
+			"file_write_time": 130967676414114158,
+			"settings":
+			{
+				"buffer_size": 503,
+				"line_ending": "Windows",
+				"name": "api"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 370.0,
+		"last_filter": "remove",
+		"selected_items":
+		[
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"task",
+				"Tasks: New document"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"INSTA",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"h",
+				"Set Syntax: HTML"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"jq",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"html	",
+				"Set Syntax: HTML"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"uu",
+				"SyntaxHighlightTools: Insert UUID"
+			],
+			[
+				"synt",
+				"SyntaxHighlightTools: Insert UUID"
+			],
+			[
+				"syntax",
+				"SyntaxHighlightTools: Count all scope names"
+			],
+			[
+				"todo",
+				"Set Syntax: Todo.txt"
+			],
+			[
+				"tins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 424.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read()) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/atom/Site Prep/Experiments/albums2016",
+		"/C/Users/atom/Site Prep/Experiments/albums2016/js"
+	],
+	"file_history":
+	[
+		"/C/Users/atom/Site Prep/Experiments/angular-udemy/Weather-Forecast-SPA/Starter/pages/forecast.html",
+		"/C/Users/atom/Site Prep/Experiments/angular-udemy/Weather-Forecast-SPA/Starter/pages/home.html",
+		"/C/Users/atom/Site Prep/Experiments/angular-udemy/Weather-Forecast-SPA/Starter/index.htm",
+		"/C/Users/atom/Site Prep/Experiments/angular-udemy/Weather-Forecast-SPA/Starter/directives/snippet.html",
+		"/C/Users/atom/Site Prep/Experiments/angular-udemy/Weather-Forecast-SPA/Starter/app.js",
+		"/E/Users/Tom/Downloads/Code-Repeated-Directives/Finished/pages/main.html",
+		"/E/Users/Tom/Downloads/Code-Repeated-Directives/Finished/app.js",
+		"/E/Users/Tom/Downloads/Code-Repeated-Directives/Finished/directives/searchresult.html",
+		"/C/Users/atom/Site Prep/Experiments/angular-udemy/Weather-Forecast-SPA/Finished/index.htm",
+		"/C/Users/atom/Site Prep/Experiments/angular-udemy/Weather-Forecast-SPA/Starter/pages/forcast.html",
+		"/C/Users/atom/Site Prep/Experiments/angular-udemy/pages/about.html",
+		"/C/Users/atom/Site Prep/Experiments/angular-udemy/js/app.js",
+		"/C/Users/atom/AppData/Local/Temp/Temp1_Code-Routing-Templates-Controllers-Part-1.zip/Finished/app.js",
+		"/C/Users/atom/AppData/Local/Temp/Temp1_Code-Routing-Templates-Controllers-Part-1.zip/Finished/index.htm",
+		"/C/Users/atom/Site Prep/Experiments/angular-udemy/index.html",
+		"/C/Users/atom/Site Prep/Experiments/angular/js/app.js",
+		"/C/Users/atom/Site Prep/Experiments/angular/angularjs-up-and-running/chapter6/public/index-mine.html",
+		"/C/Users/atom/Site Prep/Experiments/angular/angularjs-up-and-running/chapter6/index.html",
+		"/C/Users/atom/Site Prep/Experiments/angular/angularjs-up-and-running/chapter5/simple-angularjs-service/index.html",
+		"/C/Users/atom/Site Prep/Experiments/angular/index.html",
+		"/C/Users/atom/Site Prep/Experiments/angular/angularjs-up-and-running/chapter5/simple-angularjs-service/app.js",
+		"/C/xampp/htdocs/experiments/firebase/index.html",
+		"/C/xampp/htdocs/font-compare/gulpfile.js",
+		"/C/xampp/htdocs/font-compare/src/scss/style.scss",
+		"/C/xampp/htdocs/font-compare/bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss",
+		"/C/xampp/htdocs/font-compare/dist/css/style.css",
+		"/C/xampp/htdocs/font-compare/bower_components/bootstrap-sass/assets/javascripts/bootstrap.js",
+		"/C/xampp/htdocs/jsbook/javascript-and-jquery-feb-2015/c08/js/jq-getJSON.js",
+		"/C/xampp/htdocs/jsbook/javascript-and-jquery-feb-2015/c08/data/rates.json",
+		"/C/xampp/htdocs/experiments/fontTester/phpApi.php",
+		"/C/xampp/htdocs/experiments/gulp_test/css/test.css",
+		"/C/xampp/htdocs/experiments/gulp_test/dist/all.min.js",
+		"/C/Users/atom/Life/Work/web/experiments/jquery-1.11.2.min.js",
+		"/C/Users/atom/AppData/Roaming/Sublime Text 3/Packages/User/PlainTasks.sublime-settings",
+		"/C/Users/atom/AppData/Roaming/Sublime Text 3/Packages/PlainTasks/PlainTasks (Windows).sublime-settings",
+		"/C/xampp/htdocs/wp_portfolio/wp-content/themes/bones/index.php",
+		"/C/Users/atom/AppData/Roaming/Sublime Text 3/Packages/PlainTasks/messages/Tutorial.todo",
+		"/C/Users/atom/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/atom/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/atom/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/atom/Life/Work/web/experiments/flex-col-test.html",
+		"/C/xampp/htdocs/wp_portfolio/wp-content/themes/bones-child/library/js/modernizr.custom.min.js",
+		"/C/xampp/htdocs/bookstart/sass/sass/screen.scss",
+		"/C/xampp/htdocs/bookstart/stylesheets/sass/screen.css",
+		"/C/Users/atom/Life/Share/php/comparison.php",
+		"/C/Users/atom/Life/Work/web/experiments/changeTextToShapes/swapText2Shapes.html",
+		"/C/Users/atom/Life/Work/web/experiments/changeTextToShapes/shine.js-master/shine.js-master/README.md",
+		"/C/xampp/htdocs/wp_portfolio/wp-content/themes/bones-child/library/js/libs/modernizr.custom.min.js",
+		"/C/xampp/htdocs/wp_portfolio/wp-content/themes/bones/library/js/scripts.js",
+		"/C/xampp/htdocs/wp_portfolio/wp-content/themes/bones-child/library/js/scripts.js",
+		"/C/xampp/htdocs/bookstart/index.php",
+		"/C/xampp/htdocs/wp_portfolio/wp-content/themes/bones/library/scss/partials/_grid.scss",
+		"/C/xampp/htdocs/wp_portfolio/wp-content/themes/bones-child/library/sass/_grid.scss",
+		"/C/xampp/htdocs/wp_portfolio/wp-content/themes/bones-child/library/sass/grid.scss",
+		"/C/xampp/htdocs/wp_portfolio/wp-content/themes/bones/single.php",
+		"/C/xampp/htdocs/wp_portfolio/wp-content/themes/bones-child/library/sass/_flex.scss",
+		"/C/xampp/htdocs/wp_portfolio/wp-content/themes/bones-child/library/css/style.css",
+		"/C/xampp/htdocs/wp_portfolio/wp-content/themes/bones-child/style.css",
+		"/C/xampp/htdocs/wp_portfolio/wp-content/themes/bones/library/scss/style.scss",
+		"/C/xampp/htdocs/wp_portfolio/wp_portfolio.sublime-project",
+		"/C/xampp/htdocs/wp_portfolio/wp-content/themes/bones-child/custom-page.php",
+		"/C/xampp/htdocs/wp_portfolio/wp-content/themes/bones/page-front-custom.php",
+		"/C/xampp/htdocs/wp_portfolio/wp-content/themes/bones/post-formats/format.php",
+		"/C/xampp/htdocs/wp_portfolio/wp-content/themes/bones/page.php",
+		"/C/xampp/htdocs/wp_portfolio/wp-content/themes/bones/post-formats/format-link.php",
+		"/C/xampp/htdocs/wp_portfolio/wp-content/themes/bones/header.php",
+		"/C/xampp/htdocs/wp_portfolio/wp-content/themes/bones/sidebar.php",
+		"/C/xampp/htdocs/wp_portfolio/wp-content/themes/bones/archive.php",
+		"/C/xampp/htdocs/wp_portfolio/wp-content/themes/bones/footer.php",
+		"/C/xampp/htdocs/wp_portfolio/wp-content/themes/bones/taxonomy-custom_cat.php",
+		"/C/xampp/htdocs/bookstart/bookstart.sublime-project",
+		"/C/xampp/htdocs/wp_portfolio/wp-content/themes/bones/page-custom.php",
+		"/C/xampp/htdocs/jsbook/cs07/example.html",
+		"/C/xampp/htdocs/jsbook/cs07/js/js.js",
+		"/C/Users/atom/Life/Work/web/experiments/changeTextToShapes/swapTextToShapes.js",
+		"/C/xampp/htdocs/bookstart/js/js2.js",
+		"/C/xampp/htdocs/bookstart/js/moveViewpoint.js",
+		"/C/xampp/htdocs/bookstart/js/amendHeight.js",
+		"/C/xampp/htdocs/koken/words/short.php",
+		"/C/xampp/htdocs/koken/words/test.php",
+		"/C/Users/atom/Life/Work/web/experiments/full page/index.html",
+		"/C/xampp/htdocs/wp_portfolio/wp-content/themes/bones-child/page-custom.php",
+		"/C/xampp/htdocs/wp_portfolio/wp-content/themes/bones/library/scss/breakpoints/_base.scss",
+		"/C/xampp/htdocs/wp_portfolio/wp-content/themes/twentyfifteen/style.css",
+		"/C/xampp/htdocs/wp_portfolio/wp-content/themes/bones/library/bones.php",
+		"/C/xampp/htdocs/wp_portfolio/wp-content/themes/bones-child/library/sass/style.scss",
+		"/C/xampp/htdocs/wp_portfolio/wp-content/themes/bones-child/functions.php",
+		"/C/xampp/htdocs/wp_portfolio/wp-content/themes/bones-child/library/sass/screen.scss",
+		"/C/xampp/htdocs/wp_portfolio/wp-content/themes/bones-child/library/config.rb",
+		"/C/xampp/htdocs/wp_portfolio/wp-content/themes/bones/library/css/style.css",
+		"/C/xampp/htdocs/wp_portfolio/wp-content/themes/bones-child-01/style.css",
+		"/C/xampp/htdocs/wp_portfolio/wp-content/themes/bones-child-01/.ht_orbisius_child_theme_creator.json",
+		"/C/xampp/htdocs/wp_portfolio/wp-content/themes/bones/style.css",
+		"/C/xampp/htdocs/wp_portfolio/wp-content/themes/twentyfifteen/content.php",
+		"/C/Users/atom/Downloads/eddiemachado-bones-v1.06-702-gcfbfb62/eddiemachado-bones-cfbfb62/index.php",
+		"/C/xampp/htdocs/wp_portfolio/wp-content/themes/twentyfifteen/single.php",
+		"/C/xampp/htdocs/wp_portfolio/wp-content/themes/twentyfifteen/page.php",
+		"/C/xampp/htdocs/wp_portfolio/wp-content/themes/twentyfifteen/index.php",
+		"/C/xampp/htdocs/wp_portfolio/wp-content/themes/index.php",
+		"/C/Users/atom/Life/Work/web/experiments/changeTextToShapes/example.js",
+		"/C/Users/atom/Life/Work/web/experiments/changeTextToShapes/swapText2Shapes",
+		"/C/Users/atom/Life/Work/web/Inspiration & Reference/Learning_PHP_MySQL_Javascript_CSS_HTML5__Robin_Nixon_3e.pdf",
+		"/C/xampp/htdocs/jsbook/javascript-and-jquery-feb-2015/c01/add-content.html",
+		"/C/xampp/htdocs/jsbook/cs01/add-content.html",
+		"/C/xampp/htdocs/jsbook/add-content.js",
+		"/C/xampp/htdocs/jsbook/cs03/js/js.js",
+		"/C/xampp/htdocs/jsbook/javascript-and-jquery-feb-2015/c01/js/add-content.js",
+		"/C/xampp/htdocs/jsbook/cs03/example.html",
+		"/C/xampp/htdocs/jsbook/cs01/js/add-content.js",
+		"/C/xampp/htdocs/jsbook/cs01/js/add-content - Copy.js",
+		"/C/Users/atom/AppData/Local/Temp/Temp1_javascript-and-jquery-feb-2015.zip/javascript-and-jquery-feb-2015/c01/js/add-content.js",
+		"/C/xampp/htdocs/bookstart/sass/stylesheets/screen.css",
+		"/C/xampp/htdocs/bookstart/js/jquery.serialScroll-master/jquery.scrollto.js",
+		"/C/xampp/htdocs/bookstart/js/jquery-scrollto.js",
+		"/C/xampp/htdocs/bookstart/js/balupton-jquery-scrollto-a30313e/lib/jquery-scrollto.js",
+		"/C/Users/atom/Life/Work/web/Active Projects/bookstart/images/expand38.svg",
+		"/C/Users/atom/Life/Work/web/Active Projects/bookstart/images/books8.svg",
+		"/C/Users/atom/Life/Work/web/Active Projects/bookstart/images/bookmark.svg",
+		"/C/Users/atom/Life/Work/web/Active Projects/bookstart/images/bookmark49.svg",
+		"/C/Users/atom/Life/Work/web/Active Projects/bookstart/images/bookmark14.png",
+		"/C/xampp/htdocs/koken/storage/themes/flash/index.lens",
+		"/C/xampp/htdocs/koken/storage/themes/flash/contents.lens",
+		"/C/xampp/htdocs/bookstart/sass/config.rb",
+		"/C/Users/atom/Life/Work/web/Active Projects/CV/index.html",
+		"/C/xampp/htdocs/bookstart/index.html",
+		"/C/xampp/htdocs/bookstart/html.php",
+		"/C/Users/atom/Life/Work/web/experiments/books/book_data.csv",
+		"/C/xampp/htdocs/koken/php/maths.php"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 96.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\"",
+			"'",
+			";\n",
+			"&:",
+			"p",
+			"more",
+			"text-direction",
+			"format",
+			"iphone",
+			"easing",
+			"open",
+			"album",
+			"content.caption",
+			"caption",
+			"640px",
+			" {",
+			";\n",
+			"tags",
+			"month",
+			"date",
+			"RokkittRegular",
+			"preview",
+			"prev",
+			"firefox",
+			".slide_contact",
+			"Xmas",
+			"Presents",
+			"Find",
+			"2013",
+			"Finalise"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 922,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								818,
+								818
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 786,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								135,
+								135
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "misc/api.scratch",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 503,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								367,
+								389
+							]
+						],
+						"settings":
+						{
+							"auto_name": "api",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "albums2016.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\xampp\\htdocs\\experiments\\fontTester\\js\\beginningAngularJs.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 253.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

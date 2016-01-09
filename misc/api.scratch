@@ -1,0 +1,17 @@
+client id: 42b5e0e10091475d848dcaa70c3b340c
+client secret: 5e7dc5ce325240d59f94d132d2b39752
+
+
+base api: https://api.spotify.com
+track uri (why you hate the game - the game): spotify:track:0YpRJMiRYnpl4FeGImnGvr
+
+
+curl request for track:
+curl -X GET "https://api.spotify.com/v1/tracks/0YpRJMiRYnpl4FeGImnGvr" -H "Accept: application/json"
+
+top 10:
+grimes: 
+album uri: 5hB4jVN4ZHpubyiMmW81K1
+curl -X GET "https://api.spotify.com/v1/albums/5hB4jVN4ZHpubyiMmW81K1?market=ES{album_type}" -H "Accept: application/json"
+
+
