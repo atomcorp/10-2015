@@ -12,6 +12,6 @@ curl -X GET "https://api.spotify.com/v1/tracks/0YpRJMiRYnpl4FeGImnGvr" -H "Accep
 top 10:
 grimes: 
 album uri: 5hB4jVN4ZHpubyiMmW81K1
-curl -X GET "https://api.spotify.com/v1/albums/5hB4jVN4ZHpubyiMmW81K1?market=ES{album_type}" -H "Accept: application/json"
+curl -X GET "https://api.spotify.com/v1/albums/5hB4jVN4ZHpubyiMmW81K1?market=ES" -H "Accept: application/json"
 
 

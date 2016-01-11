@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"this",
+				"thisAlbum"
+			],
+			[
 				"key",
 				"keydown	.keydown()"
 			],
@@ -163,28 +167,27 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 922,
+				"buffer_size": 1141,
 				"line_ending": "Windows"
 			}
 		},
 		{
+			"contents": "var app = angular.module('app', []);\n\napp.directive('albumList', [function() {\n	\n}]);\n\n\napp.controller('top10', ['$http', function($http) {\n\n	var self = this;\n\n	var artAngels = '5hB4jVN4ZHpubyiMmW81K1';\n	var freeTc = '2DtLmzu6cCDYO9U53a6hRA';\n	var sourSoul = '1lvwZvotQke1mhZbwadECt';\n	var summertime06 = '59olnuVrXXgrDH4wknpDLC';\n	var haveYouInMyWilderness = '1kVTV6AoeMjAOMOJyVfYOl';\n	var inji = '4bYe7wIj8bQr57ghYYyPAF';\n	var dumbFlesh = '2f6y5TjWHIuaiBY9A2ZtHm';\n	var atLongLastAsap = '3arNdjotCvtiiLFfjKngMc';\n	var currents = '79dL7FLiJFOO0EoehUHQBv';\n	var ep6613 = '5avDInRFfFncLrWXcHlJhT';\n\n	var albumUris = [{dataUri: artAngels, rank: 1}, {dataUri: freeTc, rank: 2}, {dataUri: sourSoul, rank: 8}, {dataUri: summertime06, rank: 7}, {dataUri: haveYouInMyWilderness, rank: 3}, {dataUri: inji, rank: 4}, {dataUri: dumbFlesh, rank: 6}, {dataUri: atLongLastAsap, rank: 5}, {dataUri: currents, rank: 9}, {dataUri: ep6613, rank: 10}];\n\n	albums = [];\n\n	var getApi = function(albumApi, rank) {\n		$http({\n			method: 'GET',\n			url: 'https://api.spotify.com/v1/albums/' + albumApi + '?market=ES'\n		}).then(function successCallback(response) {\n			getArtist(response, rank);\n		}, function errorCallback(response) {\n			console.log(response);\n		});\n	}\n\n	for (var i = 0; i < albumUris.length; i++) {\n		getApi(albumUris[i].dataUri, albumUris[i].rank);\n	};\n\n	var getArtist = function(json, rank) {\n		var thisAlbum = {};\n		thisAlbum.rank = rank;\n		thisAlbum.albumName = json.data.name;\n		thisAlbum.artist = json.data.artists[0].name;\n		thisAlbum.artwork = json.data.images[1].url;\n		thisAlbum.listen = json.data.external_urls.spotify;\n		thisAlbum.tracklist = [];\n		thisAlbum.previewList = [];\n		var trackNumber = json.data.tracks.total;\n		for (var i = 0; i < trackNumber; i++) {\n			var track = json.data.tracks.items[i].name;\n			var preview = json.data.tracks.items[i].preview_url;\n			thisAlbum.tracklist.push(track);\n			thisAlbum.previewList.push(preview);\n		};\n		albums.push(thisAlbum);\n	}\n\n	self.albums = albums; \n\n}]);\n\napp.filter('trusted', ['$sce', function ($sce) {\n    return function(url) {\n        return $sce.trustAsResourceUrl(url);\n    };\n    // <audio ng-src=\"{{ src-link-for-song | trusted }}\" controls></audio>\n}]);\n",
 			"file": "js/app.js",
+			"file_size": 2234,
+			"file_write_time": 130968472541840001,
 			"settings":
 			{
-				"buffer_size": 786,
+				"buffer_size": 2219,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "client id: 42b5e0e10091475d848dcaa70c3b340c\nclient secret: 5e7dc5ce325240d59f94d132d2b39752\n\n\nbase api: https://api.spotify.com\ntrack uri (why you hate the game - the game): spotify:track:0YpRJMiRYnpl4FeGImnGvr\n\n\ncurl request for track:\ncurl -X GET \"https://api.spotify.com/v1/tracks/0YpRJMiRYnpl4FeGImnGvr\" -H \"Accept: application/json\"\n\ntop 10:\ngrimes: \nalbum uri: 5hB4jVN4ZHpubyiMmW81K1\ncurl -X GET \"https://api.spotify.com/v1/albums/5hB4jVN4ZHpubyiMmW81K1?market=ES\" -H \"Accept: application/json\"\n\n\n",
-			"file": "misc/api.scratch",
-			"file_size": 532,
-			"file_write_time": 130967676414114158,
+			"file": "js/directives/albums.js",
 			"settings":
 			{
-				"buffer_size": 503,
-				"line_ending": "Windows",
-				"name": "api"
+				"buffer_size": 0,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -327,10 +330,14 @@
 	"expanded_folders":
 	[
 		"/C/Users/atom/Site Prep/Experiments/albums2016",
-		"/C/Users/atom/Site Prep/Experiments/albums2016/js"
+		"/C/Users/atom/Site Prep/Experiments/albums2016/js",
+		"/C/Users/atom/Site Prep/Experiments/albums2016/js/directives",
+		"/C/Users/atom/Site Prep/Experiments/albums2016/js/routes"
 	],
 	"file_history":
 	[
+		"/C/Users/atom/Site Prep/Experiments/albums2016/js/routes/routes.js",
+		"/C/Users/atom/Site Prep/Experiments/albums2016/misc/api.scratch",
 		"/C/Users/atom/Site Prep/Experiments/angular-udemy/Weather-Forecast-SPA/Starter/pages/forecast.html",
 		"/C/Users/atom/Site Prep/Experiments/angular-udemy/Weather-Forecast-SPA/Starter/pages/home.html",
 		"/C/Users/atom/Site Prep/Experiments/angular-udemy/Weather-Forecast-SPA/Starter/index.htm",
@@ -456,9 +463,7 @@
 		"/C/xampp/htdocs/bookstart/sass/config.rb",
 		"/C/Users/atom/Life/Work/web/Active Projects/CV/index.html",
 		"/C/xampp/htdocs/bookstart/index.html",
-		"/C/xampp/htdocs/bookstart/html.php",
-		"/C/Users/atom/Life/Work/web/experiments/books/book_data.csv",
-		"/C/xampp/htdocs/koken/php/maths.php"
+		"/C/xampp/htdocs/bookstart/html.php"
 	],
 	"find":
 	{
@@ -476,6 +481,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"}",
+			"dataUril",
 			"\"",
 			"'",
 			";\n",
@@ -533,26 +540,27 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 922,
+						"buffer_size": 1141,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								818,
-								818
+								509,
+								509
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -561,20 +569,21 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 786,
+						"buffer_size": 2219,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								135,
-								135
+								596,
+								596
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
@@ -586,31 +595,30 @@
 				},
 				{
 					"buffer": 2,
-					"file": "misc/api.scratch",
+					"file": "js/directives/albums.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 503,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								367,
-								389
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"auto_name": "api",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -675,7 +683,7 @@
 		[
 			[
 				"",
-				"C:\\xampp\\htdocs\\experiments\\fontTester\\js\\beginningAngularJs.sublime-project"
+				"C:\\Users\\atom\\Site Prep\\Experiments\\angular-udemy\\angular-udemy.sublime-project"
 			]
 		],
 		"width": 380.0

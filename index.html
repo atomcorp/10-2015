@@ -2,29 +2,170 @@
 <html lang="en" ng-app="app">
 <head>
 	<meta charset="UTF-8">
-	<title>10 2016</title>
+	<title>10 2015</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<script src="/js/angular.js"></script>
+	<script src="https://code.angularjs.org/1.4.8/angular-route.min.js"></script>
 	<script src="/js/app.js"></script>
+	<script src="/js/services/albumsList.js"></script>
+	<script src="/js/services/singleList.js"></script>
+	<style>
+
+	.responsive-image {
+		width: 100%;
+		height: auto;
+	}
+
+	@font-face {
+	    font-family: 'pier_sansbold';
+	    src: url('source/fonts/pier/pier-bold-webfont.eot');
+	    src: url('source/fonts/pier/pier-bold-webfont.eot?#iefix') format('embedded-opentype'),
+	         url('source/fonts/pier/pier-bold-webfont.woff2') format('woff2'),
+	         url('source/fonts/pier/pier-bold-webfont.woff') format('woff'),
+	         url('source/fonts/pier/pier-bold-webfont.ttf') format('truetype'),
+	         url('source/fonts/pier/pier-bold-webfont.svg#pier_sansbold') format('svg');
+	    font-weight: normal;
+	    font-style: normal;
+	}
+
+	@font-face {
+	    font-family: 'pier_sansregular';
+	    src: url('source/fonts/pier/pier-regular-webfont.eot');
+	    src: url('source/fonts/pier/pier-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	         url('source/fonts/pier/pier-regular-webfont.woff2') format('woff2'),
+	         url('source/fonts/pier/pier-regular-webfont.woff') format('woff'),
+	         url('source/fonts/pier/pier-regular-webfont.ttf') format('truetype'),
+	         url('source/fonts/pier/pier-regular-webfont.svg#pier_sansregular') format('svg');
+	    font-weight: normal;
+	    font-style: normal;
+
+	}
+
+	.title {
+		font-family: 'pier_sansbold';
+		font-size: 13vw;
+	}
+
+	.introduction {
+		font-family: 'pier_sansbold';
+		font-size: 5vw;
+		color: #ddd;
+	}
+
+	body {
+		font-family: 'pier_sansregular';
+		background: #333;
+	}
+
+	.list-entry:nth-of-type(even) .album-container {
+		float: right;
+	}
+
+	.selected span {
+		color: #AC8A64;
+		text-decoration: underline;
+	}
+
+	a:hover {
+		color: #337ab7;
+	}
+
+	.header {
+		padding-bottom: 40px;
+		margin-bottom: 40px;
+		background-color: #AE8C66;
+		background: linear-gradient(315deg, #AE8C66, #9A7954);
+	}
+
+	.list-entry {
+		margin-bottom: 40px;
+		padding: 15px 0;
+	}
+
+	.list-entry:nth-of-type(1) {
+		/* background: #ff9068; */ /* fallback for old browsers */
+		/* background: -webkit-linear-gradient(to left, #eacda3 , #d6ae7b); */ /* Chrome 10-25, Safari 5.1-6 */
+		/* background: linear-gradient(to left, #eacda3 , #d6ae7b); */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		background: linear-gradient(45deg, #EA2A4B, #352643); /* Currents */
+		color: #eee;
+	}
+
+	.list-entry:nth-of-type(1n) {
+		background: linear-gradient(315deg, #D53334, #F19EC2); /* Sucker */
+	}
+
+	.list-entry:nth-of-type(2n) {
+		background: linear-gradient(315deg, #A9A77E, #FBF4D7); /* Summertime */
+	}
+
+	.list-entry:nth-of-type(3n) {
+		background: linear-gradient(45deg, #6F3E1E, #F3E2B7); /* Dumb Flesh */
+	}
+
+	.list-entry:nth-of-type(5n) {
+		background: linear-gradient(315deg, #EA2A4B, #352643); /* At Long Last */
+		color: #ddd;
+	}
+
+	.shade {
+		color: #D6D6D6;
+	}
+
+	.selection-title {
+		font-size: 5vw;
+		word-wrap: break-word;
+		text-transform: uppercase;
+	}
+
+	.artword-loading {
+		min-height: 640px;
+	}
+
+	.artist-name {
+		font-size: 4vw;
+		word-wrap: break-word;
+	}
+
+	.rank {
+	    padding: 2% 5%;
+	    background-color: #333;
+	    font-size: 4vw;
+	    color: #AA8863;
+	}
+
+	.navigation {
+		padding-bottom: 40px;
+	}
+
+	</style>
 </head>
 <body>
-	<div class="nav navbar-default">
-		<div class="container">
-			<a href="/" class="navbar-brand">10 2016</a>
+	<div class="nav navbar-default header">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-10 col-sm-offset-1 text-center">
+					<h1 class="title">10 &mdash; 2015</h1>
+				</div>
+			</div>
 		</div>
 	</div>
-	<div class="container" ng-controller="top10 as data">
+
+	<div class="container">
 		<div class="row">
-			<div class="col-xs-4">
-				<h1>{{ data.album }}</h1>
-				<h3>{{ data.artist }}</h3>
-				<img ng-src="{{ data.artwork }}" alt="">
-				<h4><a ng-href="{{ data.listen }}">Listen on Spotify</a></h4>
-				<ol>
-					<li ng-repeat="song in data.tracklist">{{ song }}</li>
-				</lo>
+			<div class="col-sm-12">
+				<p class="introduction">
+					My ten favourite albums, singles and Kanye of 2015. Built with AngularJS and the Spotify API.
+				</p>
 			</div>
-		</div>	
+		</div>
+		<div class="row introduction navigation text-center" ng-controller="navigation">
+			<a href="#/" class="selected col-xs-4" ng-class="{'active': location === '/'}"><span>Albums</span></a>
+			<a href="#/singles" class="col-xs-4"><span>Singles</span></a>
+			<a href="#/kanye" class="col-xs-4"><span>Kanye</span></a>
+		</div>
 	</div>
+
+	<div ng-view></div>
+	
 </body>
 </html>
