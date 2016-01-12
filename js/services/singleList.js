@@ -83,7 +83,7 @@ app.service('getSingleData', ['singleList', '$http', function(singleList, $http)
 	function getSingle() {
 		for (var i = 0; i < singleList.singleUris.length; i++) {
 			getApi(singleList.singleUris[i].dataUri, singleList.singleUris[i].rank);
-		};
+		}
 	}
 
 	getSingle();
@@ -95,6 +95,9 @@ app.service('getSingleData', ['singleList', '$http', function(singleList, $http)
 		var thisSingle = {};
 		thisSingle.rank = rank;
 		thisSingle.singleName = json.data.name;
+		if (thisSingle.singleName.indexOf(' - From "Fifty Shades Of Grey"') !=-1) {
+			thisSingle.singleName = thisSingle.singleName.replace(' - From "Fifty Shades Of Grey"', '');
+		}
 		thisSingle.artist = json.data.artists[0].name;
 		if (json.data.artists.length > 1) {
 			var string = '';
@@ -108,14 +111,14 @@ app.service('getSingleData', ['singleList', '$http', function(singleList, $http)
 				} else {
 					string = string + json.data.artists[i].name;
 				}
-			};
+			}
 			thisSingle.artistFeats = string;
 		}
 		thisSingle.artwork = json.data.album.images[0].url;
 		thisSingle.listen = json.data.artists[0].external_urls.spotify;
 		thisSingle.preview = json.data.preview_url;
 		single.push(thisSingle);
-	}
+	};
 
 	self.singles = single;
 

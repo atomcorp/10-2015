@@ -83,7 +83,7 @@ app.service('getAlbumData', ['albumList', '$http', function(albumList, $http) {
 	function getAlbums() {
 		for (var i = 0; i < albumList.albumUris.length; i++) {
 			getApi(albumList.albumUris[i].dataUri, albumList.albumUris[i].rank);
-		};
+		}
 	}
 
 	getAlbums();
@@ -117,9 +117,9 @@ app.service('getAlbumData', ['albumList', '$http', function(albumList, $http) {
 			var preview = json.data.tracks.items[i].preview_url;
 			thisAlbum.tracklist.push(track);
 			thisAlbum.previewList.push(preview);
-		};
+		}
 		albums.push(thisAlbum);
-	}
+	};
 
 	self.albums = albums;
 

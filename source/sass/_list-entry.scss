@@ -1,0 +1,104 @@
+
+
+.list-entry {
+	margin-bottom: 30px;
+	padding: 30px 15px;
+}
+
+.entry-artist {
+
+}
+
+.shade {
+	opacity: 0.5;
+}
+
+.rank {
+    padding: 2% 5%;
+    background-color: #333;
+    font-size: 4vw;
+    color: #AA8863;
+}
+
+// This sends everyother artwork to the right
+.list-entry:nth-of-type(even) .album-container {
+	float: right;
+}
+
+.list-entry:nth-of-type(1) {
+	background: linear-gradient(315deg, #EA2A4B, #352643);
+	color: #eee;
+	.rank {
+		color: #862847;
+	}
+}
+
+.list-entry:nth-of-type(2) {
+	background: linear-gradient(45deg, #A9A77E, #FBF4D7);
+	.rank {
+		color: #C2BF99;
+	}
+}
+
+.list-entry:nth-of-type(3) {
+	background: linear-gradient(315deg, #D53334, #F19EC2);
+	.rank {
+		color: #E57085;
+	}
+}
+
+.list-entry:nth-of-type(4) {
+	background: linear-gradient(45deg, #6F3E1E, #F3E2B7); 
+	.rank {
+		color: #99724E;
+	}
+}
+
+.list-entry:nth-of-type(5) {
+	background: linear-gradient(315deg, #EA2A4B, #352643); 
+	color: #ddd;
+	.rank {
+		color: #872847;
+	}
+}
+
+.list-entry:nth-of-type(6) {
+	background: linear-gradient(45deg, #997997, #C3697A);
+	color: #ddd;
+	.rank {
+		color: #A5748E;
+	}
+}
+
+.list-entry:nth-of-type(7) {
+	background: linear-gradient(315deg, #BCBCBC, #82C6E6);
+	.rank {
+		color: #9BC2D4;
+	}
+}
+
+.list-entry:nth-of-type(8) {
+	background: linear-gradient(45deg, #09C5C1, #E7D2BF);
+	color: #ddd;
+	.rank {
+		color: #50C9C0;
+	}
+}
+
+.list-entry:nth-of-type(9) {
+	background: linear-gradient(315deg,#B96418,#A082DA);
+	.rank {
+		color: #AB7482;
+	}
+}
+
+
+.list-entry:nth-of-type(10) {
+	background: linear-gradient(45deg, #24B0A9, #D2E591);
+	color: #ddd;
+	.rank {
+		color: #6BC59F;
+	}
+}
+
+
