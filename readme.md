@@ -9,5 +9,5 @@ View the site at [10 — 2015!](http://tomcorp.co.uk/10-2015/)
 ### Notes on the lists
 - Albums are straightforward, but a word on To Pimp A Butterfly: I can appreciate it but I can't bring myself to love it like I did Good Kid, Maad City. 
 - Singles, I disqualified songs that had appeared on the Album list, it was essentially 6 of the same artists.
-- Kaney is the best, so he got his own list. He didn't release an album, so the list consists of singles, tracks he produced and the rap perennial 'feat'.
+- Kanye is the best, so he got his own list. He didn't release an album, so the list consists of singles, tracks he produced and the rap perennial 'feat'.
 
