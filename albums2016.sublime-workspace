@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"font-",
+				"font-size"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
 				"font",
 				"font-family"
 			],
@@ -14,10 +22,6 @@
 			[
 				"pad",
 				"padding-bottom"
-			],
-			[
-				"text",
-				"text-transform"
 			],
 			[
 				"this",
@@ -58,10 +62,6 @@
 			[
 				"tex",
 				"text-align"
-			],
-			[
-				"font-",
-				"font-weight"
 			],
 			[
 				"sub",
@@ -167,31 +167,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1850,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "js/pages/albums.html",
-			"settings":
-			{
-				"buffer_size": 694,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "js/app.js",
-			"settings":
-			{
-				"buffer_size": 1758,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "10-2105.todo",
-			"settings":
-			{
-				"buffer_size": 431,
+				"buffer_size": 2163,
 				"line_ending": "Windows"
 			}
 		},
@@ -199,55 +175,15 @@
 			"file": "source/sass/_footer.scss",
 			"settings":
 			{
-				"buffer_size": 26,
+				"buffer_size": 49,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "source/sass/main.scss",
+			"file": "source/sass/_global.scss",
 			"settings":
 			{
-				"buffer_size": 101,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "dist/main.css",
-			"settings":
-			{
-				"buffer_size": 16844,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "js/services/kanyeList.js",
-			"settings":
-			{
-				"buffer_size": 3155,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "js/services/singleList.js",
-			"settings":
-			{
-				"buffer_size": 3008,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "source/sass/_header.scss",
-			"settings":
-			{
-				"buffer_size": 179,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "source/sass/_typography.scss",
-			"settings":
-			{
-				"buffer_size": 3746,
+				"buffer_size": 182,
 				"line_ending": "Windows"
 			}
 		},
@@ -255,7 +191,23 @@
 			"file": "source/sass/_list-entry.scss",
 			"settings":
 			{
-				"buffer_size": 1774,
+				"buffer_size": 1840,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "source/sass/_typography.scss",
+			"settings":
+			{
+				"buffer_size": 2645,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/pages/albums.html",
+			"settings":
+			{
+				"buffer_size": 700,
 				"line_ending": "Windows"
 			}
 		},
@@ -263,7 +215,7 @@
 			"file": "js/pages/kanye.html",
 			"settings":
 			{
-				"buffer_size": 796,
+				"buffer_size": 811,
 				"line_ending": "Windows"
 			}
 		},
@@ -271,7 +223,15 @@
 			"file": "js/pages/singles.html",
 			"settings":
 			{
-				"buffer_size": 808,
+				"buffer_size": 836,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "source/sass/_header.scss",
+			"settings":
+			{
+				"buffer_size": 291,
 				"line_ending": "Windows"
 			}
 		}
@@ -418,28 +378,33 @@
 		"/C/Users/atom/Site Prep/Experiments/albums2016/dist",
 		"/C/Users/atom/Site Prep/Experiments/albums2016/js",
 		"/C/Users/atom/Site Prep/Experiments/albums2016/js/modules",
+		"/C/Users/atom/Site Prep/Experiments/albums2016/js/pages",
 		"/C/Users/atom/Site Prep/Experiments/albums2016/source",
+		"/C/Users/atom/Site Prep/Experiments/albums2016/source/fonts",
 		"/C/Users/atom/Site Prep/Experiments/albums2016/source/sass"
 	],
 	"file_history":
 	[
-		"/C/Users/atom/Site Prep/Experiments/albums2016/.gitignore",
-		"/C/Users/atom/Site Prep/Experiments/albums2016/js/pages/kanye.html",
-		"/C/Users/atom/Site Prep/Experiments/albums2016/js/services/kanyeList.js",
-		"/C/Users/atom/Site Prep/Experiments/albums2016/js/app.js",
-		"/C/Users/atom/Site Prep/Experiments/albums2016/source/fonts/aileron/stylesheet.css",
-		"/C/Users/atom/Site Prep/Experiments/albums2016/source/sass/_typography.scss",
-		"/C/Users/atom/Site Prep/Experiments/albums2016/gulpfile.js",
-		"/C/Users/atom/Site Prep/Experiments/albums2016/source/sass/_list-entry.scss",
-		"/C/Users/atom/Site Prep/Experiments/albums2016/source/sass/_global.scss",
-		"/C/Users/atom/Site Prep/Experiments/albums2016/source/sass/main.scss",
-		"/C/Users/atom/Site Prep/Experiments/albums2016/js/pages/singles.html",
-		"/C/Users/atom/Site Prep/Experiments/albums2016/js/pages/albums.html",
-		"/C/Users/atom/Site Prep/Experiments/albums2016/source/sass/_header.scss",
 		"/C/Users/atom/Site Prep/Experiments/albums2016/source/sass/_footer.scss",
+		"/C/Users/atom/Site Prep/Experiments/albums2016/js/pages/singles.html",
+		"/C/Users/atom/Site Prep/Experiments/albums2016/js/pages/kanye.html",
+		"/C/Users/atom/Site Prep/Experiments/albums2016/source/sass/_list-entry.scss",
+		"/C/Users/atom/Site Prep/Experiments/albums2016/source/img/play.svg",
+		"/C/Users/atom/Site Prep/Experiments/albums2016/index.html",
+		"/C/Users/atom/Site Prep/Experiments/albums2016/js/pages/albums.html",
+		"/C/Users/atom/Site Prep/Experiments/albums2016/js/app.js",
+		"/C/Users/atom/Site Prep/Experiments/albums2016/10-2105.todo",
+		"/C/Users/atom/Site Prep/Experiments/albums2016/source/sass/main.scss",
+		"/C/Users/atom/Site Prep/Experiments/albums2016/js/services/kanyeList.js",
+		"/C/Users/atom/Site Prep/Experiments/albums2016/js/services/singleList.js",
+		"/C/Users/atom/Site Prep/Experiments/albums2016/source/sass/_header.scss",
+		"/C/Users/atom/Site Prep/Experiments/albums2016/source/sass/_typography.scss",
+		"/C/Users/atom/Site Prep/Experiments/albums2016/.gitignore",
+		"/C/Users/atom/Site Prep/Experiments/albums2016/source/fonts/aileron/stylesheet.css",
+		"/C/Users/atom/Site Prep/Experiments/albums2016/gulpfile.js",
+		"/C/Users/atom/Site Prep/Experiments/albums2016/source/sass/_global.scss",
 		"/C/Users/atom/Site Prep/Experiments/albums2016/source/fonts/pier/stylesheet.css",
 		"/C/Users/atom/Site Prep/Experiments/albums2016/js/modules/angular-route.js",
-		"/C/Users/atom/Site Prep/Experiments/albums2016/js/services/singleList.js",
 		"/C/Users/atom/Site Prep/Experiments/albums2016/js/services/albumsList.js",
 		"/C/Users/atom/Site Prep/Experiments/albums2016/js/modules/angular-route.min.js",
 		"/C/xampp/htdocs/the-cutlery/gulpfile.js",
@@ -547,10 +512,7 @@
 		"/C/xampp/htdocs/wp_portfolio/wp-content/themes/twentyfifteen/index.php",
 		"/C/xampp/htdocs/wp_portfolio/wp-content/themes/index.php",
 		"/C/Users/atom/Life/Work/web/experiments/changeTextToShapes/example.js",
-		"/C/Users/atom/Life/Work/web/experiments/changeTextToShapes/swapText2Shapes",
-		"/C/Users/atom/Life/Work/web/Inspiration & Reference/Learning_PHP_MySQL_Javascript_CSS_HTML5__Robin_Nixon_3e.pdf",
-		"/C/xampp/htdocs/jsbook/javascript-and-jquery-feb-2015/c01/add-content.html",
-		"/C/xampp/htdocs/jsbook/cs01/add-content.html"
+		"/C/Users/atom/Life/Work/web/experiments/changeTextToShapes/swapText2Shapes"
 	],
 	"find":
 	{
@@ -561,6 +523,7 @@
 		"height": 96.0,
 		"where_history":
 		[
+			"C:\\Users\\atom\\Site Prep\\Experiments\\albums2016\\source\\sass"
 		]
 	},
 	"find_state":
@@ -568,6 +531,10 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"message",
+			"aileronbold",
+			"pier_sansregular",
+			"vw",
 			"kanyeName",
 			"thisKanye",
 			"navigation--selected",
@@ -673,7 +640,7 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -682,15 +649,19 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1850,
+						"buffer_size": 2163,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1533,
-								1533
+								1743,
+								1743
+							],
+							[
+								2108,
+								2108
 							]
 						],
 						"settings":
@@ -702,87 +673,29 @@
 						"translation.y": 240.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "js/pages/albums.html",
+					"file": "source/sass/_footer.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 694,
+						"buffer_size": 49,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								232,
-								232
+								49,
+								49
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "js/app.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1758,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1290,
-								1290
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": -0.0,
-						"translation.y": 360.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "10-2105.todo",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 431,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								299,
-								426
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PlainTasks/PlainTasks.tmLanguage"
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -792,20 +705,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "source/sass/_footer.scss",
+					"buffer": 2,
+					"file": "source/sass/_global.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 26,
+						"buffer_size": 182,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								26,
-								26
+								182,
+								182
 							]
 						],
 						"settings":
@@ -816,29 +729,89 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "source/sass/main.scss",
+					"buffer": 3,
+					"file": "source/sass/_list-entry.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 101,
+						"buffer_size": 1840,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								101,
-								101
+								1837,
+								1837
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1717.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "source/sass/_typography.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2645,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1571,
+								1571
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 720.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "js/pages/albums.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 700,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								388,
+								388
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -849,144 +822,25 @@
 				},
 				{
 					"buffer": 6,
-					"file": "dist/main.css",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 16844,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": -0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "js/services/kanyeList.js",
+					"file": "js/pages/kanye.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3155,
+						"buffer_size": 811,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2088,
-								2251
-							],
-							[
-								2261,
-								2261
+								386,
+								375
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1710.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "js/services/singleList.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3008,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2204,
-								2204
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1740.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "source/sass/_header.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 179,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6,
-								6
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "source/sass/_typography.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3746,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3271,
-								3284
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -996,25 +850,25 @@
 					"type": "text"
 				},
 				{
-					"buffer": 11,
-					"file": "source/sass/_list-entry.scss",
+					"buffer": 7,
+					"file": "js/pages/singles.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1774,
+						"buffer_size": 836,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								251,
-								251
+								391,
+								391
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -1025,61 +879,31 @@
 					"type": "text"
 				},
 				{
-					"buffer": 12,
-					"file": "js/pages/kanye.html",
+					"buffer": 8,
+					"file": "source/sass/_header.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 796,
+						"buffer_size": 291,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								519,
-								519
+								65,
+								65
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "js/pages/singles.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 808,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								808,
-								808
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
+					"stack_index": 7,
 					"type": "text"
 				}
 			]
