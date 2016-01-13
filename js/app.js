@@ -6,6 +6,8 @@ app.controller('top10Albums', ['$http', 'getAlbumData', function($http, getAlbum
 
 	self.albums = getAlbumData.albums;
 
+	self.message = 'These are may favourite albums of the year, not necessarily the best or most deserving. Essentially: I\'m sorry, Kendrik.';
+
 }]);
 
 app.controller('top10Singles', ['$http', 'getSingleData', function($http, getSingleData) {
@@ -13,6 +15,8 @@ app.controller('top10Singles', ['$http', 'getSingleData', function($http, getSin
 	var self = this;
 
 	self.singles = getSingleData.singles;
+
+	self.message = 'I disqualified any songs featured on the Albums list to make it more interesting, it would have looked very similar otherwise.';
 
 }]);
 
@@ -22,6 +26,7 @@ app.controller('top10Kanye', ['$http', '$timeout', 'getKanyeData', function($htt
 
 	self.kanye = getKanyeData.kanyes; 
 
+	self.message = 'Kanye\'s great so even if he didn\'t release an album, gets a list courtesy of his feat\'ing, producing and weird single strategy.';
 
 }]);
 

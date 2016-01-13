@@ -9,6 +9,10 @@ body {
 	height: auto;
 }
 
-a:hover {
-	color: #337ab7;
-}
+a {
+	color: #608FB7;
+	&:hover,
+	&:focus {
+		color: #4A779C;
+	}
+} 

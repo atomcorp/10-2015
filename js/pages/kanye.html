@@ -1,13 +1,20 @@
 <div class="container-fluid" ng-controller="top10Kanye as data">
-	<div class="row list-entry" ng-repeat="kanye in data.kanye | orderBy: '-rank'">
-		<div class="col-sm-6 album-art__container" ng-class-even="'pull-right'">
-			<img class="responsive-image" ng-src="{{ kanye.artwork }}" alt="">
-		</div>
-		<div class="col-sm-6">
-			<div class="rank">{{ kanye.rank }}</div>
-			<h1 class="entry-title">{{ kanye.kanyeName }}</h1>
-			<h3 class="artist-name">{{ kanye.artist }} <span class="shade">{{ kanye.artistFeats }}</span> </h3>
-			<h4><a ng-href="{{ kanye.listen }}">Listen on Spotify</a></h4>
-		</div>
-	</div>	
+<!-- 	<div class="row message-container">
+	<div class="col-sm-10 col-sm-offset-1">
+		<p class="message">{{ data.message }}</p>
+	</div>
+</div> -->
+	<div class="list">
+		<div class="row list-entry" ng-repeat="kanye in data.kanye | orderBy: '-rank'">
+			<div class="col-sm-6 album-art__container" ng-class-even="'float-right'">
+				<img class="responsive-image" ng-src="{{ kanye.artwork }}" alt="">
+			</div>
+			<div class="col-sm-6">
+				<div class="rank">{{ kanye.rank }}</div>
+				<h1 class="entry-title">{{ kanye.kanyeName }}</h1>
+				<h3 class="artist-name">{{ kanye.artist }} <span class="shade">{{ kanye.artistFeats }}</span> </h3>
+				<!-- <h4><a ng-href="{{ kanye.listen }}">Listen on Spotify</a></h4> -->
+			</div>
+		</div>	
+	</div>
 </div>
